@@ -31,7 +31,7 @@ void GPIO_Config(void) {
     gpio.GPIO_Speed = GPIO_Speed_2MHz;
     GPIO_Init(GPIOC, &gpio);
 
-    GPIO_SetBits(GPIOC, GPIO_Pin_13); // LED tat ban dau
+    GPIO_SetBits(GPIOC, GPIO_Pin_13); // LED bat ban dau
 }
 
 // ================= Cau hình USART1 =================
